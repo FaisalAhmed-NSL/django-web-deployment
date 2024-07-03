@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xb4%e92yq)c=15wgc$c2efm*po2)v@-y==ycx3rzs7m!5!u5vw'
+
 SECRET_KEY = os.environ.get('SECRECT_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -76,7 +76,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
-# postgresql://django_web_food_user:WmZighFAKcxngGbGrV41AVmg8VagFDdH@dpg-cq2h9tt6l47c73b5qec0-a.oregon-postgres.render.com/django_web_food
+# 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
